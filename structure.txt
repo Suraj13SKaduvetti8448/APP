@@ -1,0 +1,46 @@
+lib/
+  core/
+    app_routes.dart
+    app_theme.dart
+    constants.dart
+  models/
+    user.dart
+  services/
+    auth_service.dart
+    session_service.dart
+  views/
+    auth/
+      login_page.dart
+      register_page.dart
+    business_user/
+      business_home.dart
+    client/
+      client_home.dart
+    designer/
+      designer_home.dart
+    landing/
+      landing_page.dart
+    shared/
+      product_list_page.dart
+  widgets/
+    primary_button.dart
+  main.dart
+
+
+backend/
+ ├── app/
+ │    ├── main.py               # Entry point
+ │    ├── database.py           # SQLite connection
+ │    ├── models.py             # SQLAlchemy models
+ │    ├── schemas.py            # Pydantic validation
+ │    ├── auth.py               # Login/Register
+ │    ├── users.py              # Role-based user mgmt
+ │    ├── products.py           # Furniture mgmt
+ │    ├── projects.py           # Client-Designer workflow
+ │    └── utils.py              # Hashing, OTP, helpers
+ ├── requirements.txt
+ |── db/                   # SQLite database
+ |    └── furnitracker.db
+ └── uploads/
+ |   └── images/              # For product images
+ |── venv

@@ -1,0 +1,29 @@
+# Flutter/Dart
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub-cache/
+**/pubspec.lock
+**/ios/Pods/
+**/android/.gradle/
+**/android/app/release/
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/*.egg
+**/*.egg-info/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.venv/
+**/venv/
+.env
+
+# IDE/editor files
+.vscode/
+.idea/
+*.iml
+*.swp
+.DS_Store
